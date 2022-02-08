@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="400" height="400" viewBox="0 0 400 400" xml:space="preserve">
+<desc>Created with Fabric.js 3.6.2</desc>
+<defs>
+</defs>
+<g transform="matrix(0.39 0 0 0.39 200 200)" id="Apple"  >
+<linearGradient id="SVGID_Nepojmenovaný_přechod_27_1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1 0 0 1 -256 -256)"  x1="328.27" y1="508.05" x2="183.73" y2="3.95">
+<stop offset="0%" style="stop-color:rgb(255,219,115);stop-opacity: 1"/>
+<stop offset="8%" style="stop-color:rgb(253,173,78);stop-opacity: 1"/>
+<stop offset="15%" style="stop-color:rgb(251,131,46);stop-opacity: 1"/>
+<stop offset="19%" style="stop-color:rgb(250,115,33);stop-opacity: 1"/>
+<stop offset="23%" style="stop-color:rgb(246,105,47);stop-opacity: 1"/>
+<stop offset="37%" style="stop-color:rgb(232,74,90);stop-opacity: 1"/>
+<stop offset="48%" style="stop-color:rgb(224,54,117);stop-opacity: 1"/>
+<stop offset="55.00000000000001%" style="stop-color:rgb(221,47,127);stop-opacity: 1"/>
+<stop offset="68%" style="stop-color:rgb(180,61,151);stop-opacity: 1"/>
+<stop offset="97%" style="stop-color:rgb(77,96,212);stop-opacity: 1"/>
+<stop offset="100%" style="stop-color:rgb(66,100,219);stop-opacity: 1"/>
+</linearGradient>
+<rect style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: url(#SVGID_Nepojmenovaný_přechod_27_1); fill-rule: nonzero; opacity: 1;"  x="-232.53" y="-232.53" rx="107.23" ry="107.23" width="465.06" height="465.06" />
+</g>
+<g transform="matrix(0.39 0 0 0.39 200 200)" id="Apple"  >
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;"  transform=" translate(-256, -256)" d="M 331 115.22 a 66.92 66.92 0 0 1 66.65 66.65 V 330.13 A 66.92 66.92 0 0 1 331 396.78 H 181 a 66.92 66.92 0 0 1 -66.65 -66.65 V 181.87 A 66.92 66.92 0 0 1 181 115.22 H 331 m 0 -31 H 181 c -53.71 0 -97.66 44 -97.66 97.66 V 330.13 c 0 53.71 44 97.66 97.66 97.66 H 331 c 53.71 0 97.66 -44 97.66 -97.66 V 181.87 c 0 -53.71 -43.95 -97.66 -97.66 -97.66 Z" stroke-linecap="round" />
+</g>
+<g transform="matrix(0.39 0 0 0.39 200 200)" id="Apple"  >
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;"  transform=" translate(-256, -256)" d="M 256 198.13 A 57.87 57.87 0 1 1 198.13 256 A 57.94 57.94 0 0 1 256 198.13 m 0 -31 A 88.87 88.87 0 1 0 344.87 256 A 88.87 88.87 0 0 0 256 167.13 Z" stroke-linecap="round" />
+</g>
+<g transform="matrix(0.39 0 0 0.39 235.47 163.76)" id="Apple"  >
+<circle style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;"  cx="0" cy="0" r="21.07" />
+</g>
+</svg>

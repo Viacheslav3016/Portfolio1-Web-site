@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="400" height="400" viewBox="0 0 400 400" xml:space="preserve">
+<desc>Created with Fabric.js 3.6.2</desc>
+<defs>
+</defs>
+<g transform="matrix(0.43 0 0 0.43 200 200)" id="Apple"  >
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(59,87,157); fill-rule: nonzero; opacity: 1;"  transform=" translate(-256, -255.98)" d="M 459.44 23.47 H 52.56 A 29.15 29.15 0 0 0 23.49 52.54 V 459.42 a 29.15 29.15 0 0 0 29.07 29.07 H 271.38 V 308.67 H 210.72 V 238.25 h 60.66 V 186 c 0 -41.17 9.51 -64.72 30.06 -79.9 c 17.61 -13 40.56 -13.83 54.57 -13.4 c 15 0.46 60.13 3 60.13 3 v 63.77 l -41.85 -0.4 s -17.46 -0.61 -24 9.34 c -5.58 8.54 -5.69 23.16 -5.69 23.16 v 46.31 h 68.65 l -7.72 70.82 H 344.23 V 488.49 H 459.44 a 29.15 29.15 0 0 0 29.07 -29.07 V 52.54 A 29.15 29.15 0 0 0 459.44 23.47 Z" stroke-linecap="round" />
+</g>
+</svg>

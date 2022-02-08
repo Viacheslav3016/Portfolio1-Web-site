@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="400" height="400" viewBox="0 0 400 400" xml:space="preserve">
+<desc>Created with Fabric.js 3.6.2</desc>
+<defs>
+</defs>
+<g transform="matrix(1 0 0 1 200 200)" id="_541895288"  >
+<rect style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(55,154,208); fill-rule: evenodd; opacity: 1;"  x="-100.5" y="-100.5" rx="19" ry="19" width="201" height="201" />
+</g>
+<g transform="matrix(1 0 0 1 153.23 220.4)" id="_541895288"  >
+<polygon style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(254,254,254); fill-rule: evenodd; opacity: 1;"  points="-14.5,-19 -14.5,41 14.5,41 14.5,-24 14.5,-41 -14.5,-41 " />
+</g>
+<g transform="matrix(1 0 0 1 153.23 153.23)" id="_541895288"  >
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(254,254,254); fill-rule: evenodd; opacity: 1;"  transform=" translate(-53.5, -53.5)" d="M 54 39 c -8 0 -15 7 -15 15 c 0 7 7 14 15 14 c 7 0 14 -7 14 -14 c 0 -8 -7 -15 -14 -15 z" stroke-linecap="round" />
+</g>
+<g transform="matrix(1 0 0 1 222.39 220.4)" id="_541895288"  >
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(254,254,254); fill-rule: evenodd; opacity: 1;"  transform=" translate(-123, -121)" d="M 161 105 c -2 -15 -9 -25 -30 -25 c -12 0 -20 5 -24 11 l 0 0 l 0 -11 l -23 0 l 0 16 l 0 66 l 24 0 l 0 -41 c 0 -10 2 -21 15 -21 c 13 0 14 13 14 22 l 0 40 l 25 0 l 0 -45 l 0 0 c 0 -4 0 -8 -1 -12 z" stroke-linecap="round" />
+</g>
+</svg>

@@ -1,0 +1,1015 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/simple-adaptive-slider.min.css">
+    <script defer src="js/simple-adaptive-slider.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Natalia Nartova</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+
+   
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <div class="user">
+                    <div class="user__avatar">
+                        <img src="img/1.png" alt="">
+                    </div>
+                    
+                    <div class="user__content">
+                        <div class="user__name">
+                            Нартова Наталия
+                        </div>
+                        <div class="user__prof">
+                            Рерайтер & Копирайтер
+                        </div>
+                    </div>
+                </div>
+                <nav class="nav" id="nav">
+                    <a class="nav__link" href="#раб">Работы</a>
+                    <a class="nav__link" href="#об">Обо мне</a>
+                    <a class="nav__link" href="#отз">Отзывы</a>
+                    <a class="nav__link" href="#нов">Блог</a>
+                    <a class="nav__link" href="#" data-modal="#modal_hire_me">Предложить работу</a>
+                </nav>
+                <button class="burger" type="button" id="navToggle">
+                    <img class="burger__icon" src="img/burger.svg" alt="">
+                    
+                </button>
+
+            </div>
+        </div>
+    </header>
+    <setion class="intro">
+        <div class="container">
+
+            <div class="intro__inner">
+                <div class="intro__content">
+                    <h2 class="intro__subtitle">Добро пожаловать, кратко обо мне:</h2>
+                    <h1 class="intro__title">Нартова Наталья</h1>
+                    <div class="intro__text">Рерайтер&Копирайтер</div>
+                    <div class="social">
+                        <a href="https://instagram.com/nartova957?utm_medium=copy_link" target="_blank">
+                            <img class="social__link"  src="img/1.svg" alt="">
+                        </a>
+                        <a href="https://t.me/I_am_Cheese" target="_blank">
+                            <img class="social__link"  src="img/2.svg" alt="">
+                        </a>
+                        <a href="https://join.skype.com/invite/GY91001iipgV" target="_blank">
+                            <img class="social__link"  src="img/3.svg" alt="">
+                        </a>
+                        <a href=" https://api.whatsapp.com/send?phone=0936545065" target="_blank">
+                            <img class="social__link"  src="img/4.svg" alt="">
+                        </a>
+                        <a href="https://www.linkedin.com/in/%D0%BD%D0%B0%D1%82%D0%B0%D0%BB%D0%B8%D1%8F-%D0%BD%D0%B0%D1%80%D1%82%D0%BE%D0%B2%D0%B0-79a4a5230" target="_blank">
+                            <img class="social__link" src="img/5.svg" alt="">
+                        </a>
+                        <a href="https://www.weblancer.net/users/MrsCheeks/" target="_blank">
+                            <img class="social__link" src="img/Weblance.svg" alt="">
+                        </a>
+                    </div>
+                    <a class="btn" href="#" data-modal="#modal_hire_me">Оформить заказ</a> 
+                    <button class="btn" type ="button" data-modal="#modal_resume">Посмотреть мое резюме</button>
+                 <img class="intro__photo" src="img/photoUser2-removebg-preview.png">
+            </div>
+        </div>
+    </section>
+    <div class="works" id="раб">
+        <div class="container">
+            <div class="works__nav">
+                <a class="works__nav-link" href="#" data-filter="все"> Все</a>
+                <a class="works__nav-link" href="#" data-filter="рассказы"> Рассказы</a>
+                <a class="works__nav-link" href="#" data-filter="seo"> SEO тексты</a>
+                <a class="works__nav-link" href="#" data-filter="рерайт">Глубокий рерайт</a>
+                <a class="works__nav-link" href="#" data-filter="студ">Студенческие работы</a>
+            </div>
+
+            <div class="portfolio" id="seo">
+                <div class="portfolio__col" data-cat="seo">
+                    <div class="work" data-modal="#modal_project_1">
+                        <img class="work__image" src="img/medicine.jpg" alt="">
+                        <div class="work__content">
+                            <div class="work__cat">Категория: SEO текст</div>
+                            <div class="work__title">
+                                Рерайт Медицинского текста. Артрит.
+                                <time class="work__date" datatime="2021-11-22">2021</time>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio__col" data-cat="рерайт">
+                    <div class="work"  data-modal="#modal_project_2">
+                        <img class="work__image" src="img/cooking.jpg" alt="">
+                        <div class="work__content">
+                            <div class="work__cat">Категория: Рерайт</div>
+                            <div class="work__title">
+                                Рерайт текст из статьи
+                                <time class="work__date" datatime="2021-11-22">2021</time>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio__col" data-cat="рассказы">
+                    <div class="work" data-modal="#modal_project_3">
+                        <img class="work__image" src="img/selfLetter.jpg" alt="">
+                        <div class="work__content">
+                            <div class="work__cat">Категория: Рассказы</div>
+                            <div class="work__title">
+                                Авторский рассказ
+                                <time class="work__date" datatime="2021-11-22">2021</time>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio__col" data-cat="seo">
+                    <div class="work" data-modal="#modal_project_4">
+                        <img class="work__image" src="img/seo.jpg" alt="">
+                        <div class="work__content">
+                            <div class="work__cat">Категория: SEO тексты </div>
+                            <div class="work__title">
+                                SEO текст о Новостройке в Киеве
+                                <time class="work__date" datatime="2021-11-22">2021</time>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio__col"data-cat="seo">
+                    <div class="work"  data-modal="#modal_project_5">
+                        <img class="work__image" src="img/bitkoin.jpg" alt="">
+                        <div class="work__content">
+                            <div class="work__cat">Категория: SEO тексты</div>
+                            <div class="work__title">
+                                SEO текст о Корейской "Платформе"
+                                <time class="work__date" datatime="2021-11-22">2021</time>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio__col"data-cat="студ">
+                    <div class="work" data-modal="#modal_project_6">
+                        <img class="work__image" src="img/working.jpg" alt="">
+                        <div class="work__content">
+                            <div class="work__cat">Категория: Студенческие работы</div>
+                            <div class="work__title">
+                                Реферат
+                                <time class="work__date" datatime="2021-11-22">2021</time>s
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                <div class="text-center">
+                <a class="btn btn--sm" href="https://drive.google.com/drive/folders/16jb_mdjQNZnm4OYUdCBVh7ORjHxyqeAj?usp=sharing" target="_blank">Загрузить больше работ</a>
+            </div>
+        </div>
+    </div>
+
+    <section class="about" id="об">
+        <div class="container">
+            <div class="about__inner">
+                <div class="about__photo">
+                    <img class="img" src="img/UserPhoto-removebg.png" alt="">
+                </div>
+                <div class="about__content">
+                    <h3 class="about__title">ПРО МЕНЯ</h3>
+                    <h2 class="about__bigtitle">КТО Я</h2>
+                    <div class="about__text">
+                        <p>Все привет! Меня зовут Наталья, и моя основная профессия контролер, она не имеет ничего
+                             общего с моим любимым хобби.</p>
+                        <p>К профессии копирайтер я пришла в солидном возрасте совершенно случайно, постепенно из 
+                            любимого хобби это переросло в вид дополнительного заработка, который для меня очень 
+                            интересен и приносит массу удовольствия. Мне со школьной скамьи легко давались сочинения,
+                             контрольные и другие студенческие работы. Во время учебы в колледже, я с удовольствием 
+                             помогала в этом своим сокурсникам. </p>
+                        <p>Часто доводилось писать поздравительные речи, небольшие презентации для знакомых. Но о том, 
+                            чтобы сделать это источником дополнительного заработка, я даже не мечтала. В этом мне помог
+                             мой сын, именно он показал мне, что такое биржа фриланса, помог зарегистрироваться. Я 
+                             прочитала не одну книгу, прошла специальные курсы по данной специальности, прежде чем постигла
+                              все азы данной профессии.</p>
+                        <p>На данный момент я имею большой опыт написания авторских рассказов. Студенческих работ,выполняю
+                             рерайт любой сложности. Работаю с SEO текстами. При этом всегда на связи, адекватно реагирую на
+                              замечания, при необходимости вношу любые правки. Буду рада сотрудничеству!</p>
+                    </div>
+                    <a class="btn" href="#" data-modal="#modal_hire_me">Оформить заказ</a> 
+                    <button class="btn" type ="button" data-modal="#modal_resume">Посмотреть мое резюме</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        
+    <div class="slider__title" id="отз">
+        <h3 class="slider__title">ОТЗЫВЫ</h3>
+      </div>
+    <div class="slider">
+        <div class="slider__wrapper">
+          <div class="slider__items">
+            <div class="slider__item">
+              <img class="img-fluid" src="img/rew1.PNG" alt="..." width="1400" height="585" loading="lazy">
+            </div>
+            <div class="slider__item">
+              <img class="img-fluid" src="img/rew2.PNG" alt="..." width="1400" height="585" loading="lazy">
+            </div>
+            <div class="slider__item">
+              <img class="img-fluid" src="img/rew3.PNG" alt="..." width="1400" height="585" loading="lazy">
+            </div>
+            <div class="slider__item">
+              <img class="img-fluid" src="img/rew4.PNG" alt="..." width="1400" height="585" loading="lazy">
+            </div>
+            <div class="slider__item">
+                <img class="img-fluid" src="img/rew5.PNG" alt="..." width="1400" height="585" loading="lazy">
+              </div>
+              <div class="slider__item">
+                <img class="img-fluid" src="img/rew6.PNG" alt="..." width="1400" height="585" loading="lazy">
+              </div>
+              <div class="slider__item">
+                <img class="img-fluid" src="img/rew7.PNG" alt="..." width="1400" height="585" loading="lazy">
+              </div>
+              <div class="slider__item">
+                <img class="img-fluid" src="img/rew8.PNG" alt="..." width="1400" height="585" loading="lazy">
+              </div>
+              <div class="slider__item">
+                <img class="img-fluid" src="img/rew9.PNG" alt="..." width="1400" height="585" loading="lazy">
+              </div>
+              <div class="slider__item">
+                <img class="img-fluid" src="img/rew10.PNG" alt="..." width="1400" height="585" loading="lazy">
+              </div>
+            
+          </div>
+        </div>
+  
+        <a class="slider__control slider__control_prev" href="#" role="button" data-slide="prev"></a>
+        <a class="slider__control slider__control_next" href="#" role="button" data-slide="next"></a>
+      </div>
+
+      <section class="news" id="нов">
+          <div class="container">
+                <div class="news__header">
+                    <h3 class="news__title">ТАКЖЕ ЧИТАЙТЕ СТАТЬИ</h3>
+                    <div class="news__text">Когда есть время я пишу авторские посты</div>
+                </div>
+
+                    <div class="articles">
+                        <div class="articles__col">
+                        <div class="articles__item">
+                            <div class="articles__header">
+                                <time class="articles__date">02 <br>Февраля</time>
+                                <a href="#">
+                                <img class="articles__photo" src="img/shokedjpg.jpg" alt="">
+                            </a>
+                            </div>
+                            <div class="articles__content">
+                                <h4 class="articles__title">
+                                    <a href="https://zen.yandex.ru/media/id/61f68c1bbd7b7a6741c335d9/akushery-elitnogo-roddoma-byli-v-shoke-kogda-uvideli-kogo-rodila-izvestnaia-zvezda-61faf79d2d0a4a0d87f81da8" target="__blank"> Акушеры элитного роддома были в шоке, когда увидели, кого родила известная звезда… </a> </h4>
+                                <div class="articles__cat">Авторский рассказ</div>
+                                <div class="articles__text">
+                                    <p>-Тужьтесь! Ну же! Теряем время! Соберитесь! – пыталась вразумить истерившую женщину опытная акушерка.
+                                        Та ругалась, кричала, и совершенно никого не слушала. Наконец то, спустя два часа, на свет появился младенец. Однако вместо радостных возгласов и поздравлений в родильном зале повисла гнетущая тишина. 
+                                    </p>
+                                </div>
+                            </div>
+                            <a class="btn btn--sm" href="https://zen.yandex.ru/media/id/61f68c1bbd7b7a6741c335d9/akushery-elitnogo-roddoma-byli-v-shoke-kogda-uvideli-kogo-rodila-izvestnaia-zvezda-61faf79d2d0a4a0d87f81da8" target="__blank" >ЧИТАТЬ БОЛЬШЕ</a>
+                        </div>
+                      </div> 
+                       
+                      <div class="articles__col">
+                        <div class="articles__item">
+                            <div class="articles__header">
+                                <time class="articles__date">03 <br>Февраля</time>
+                                <a href="https://zen.yandex.ru/media/id/61f68c1bbd7b7a6741c335d9/kajdyi-den-posle-avarii-k-muju-prihodila-pokoinaia-jena-vo-sne-i-govorila-chto-ih-dochka-jiva-61fc2f400c85c615851e84a4" target="__blank">
+                                <img class="articles__photo" src="img/shoked2.jpg" alt="">
+                            </a>
+                            </div>
+                            <div class="articles__content">
+                                <h4 class="articles__title">
+                                    <a href="#"> Каждый день после аварии, к мужу приходила покойная жена во сне и говорила, что их дочка жива...  </a> </h4>
+                                <div class="articles__cat">АВТОРСКИЙ РАССКАЗ</div>
+                                <div class="articles__text">
+                                    <p>Со своей ненаглядной Полиной Михаил познакомился  на курсах актерского мастерства. Работа Миши была связана с постоянными встречами и переговорами, частыми командировками. В агентство недвижимости он устроился недавно и страшно боялся ударить в грязь лицом.  
+                                    </p>
+                                </div>
+                            </div>
+                            <a class="btn btn--sm" href="https://zen.yandex.ru/media/id/61f68c1bbd7b7a6741c335d9/kajdyi-den-posle-avarii-k-muju-prihodila-pokoinaia-jena-vo-sne-i-govorila-chto-ih-dochka-jiva-61fc2f400c85c615851e84a4">ЧИТАТЬ БОЛЬШЕ</a>
+                        </div>
+                      </div> 
+
+
+                      <div class="articles__col">
+                        <div class="articles__item">
+                            <div class="articles__header">
+                                <time class="articles__date">8<br>Февраля</time>
+                                <a href="#">
+                                <img class="articles__photo" src="img/workinprogress.jpg" alt="">
+                            </a>
+                            </div>
+                            <div class="articles__content">
+                                <h4 class="articles__title">
+                                    <a href="#"> САМАЯ КРУТАЯ СТАТЬЯ3 </a> </h4>
+                                <div class="articles__cat">Тут Категория</div>
+                                <div class="articles__text">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pellentesque eu enim eget luctus. Sed augue felis, facilisis et elementum vitae, aliquam sit amet ante. Sed iaculis eros sem, elementum consequat.
+                                    </p>
+                                </div>
+                            </div>
+                            <a class="btn btn--sm" href="#">ЧИТАТЬ БОЛЬШЕ</a>
+                        </div>
+                      </div> 
+
+                    </div>
+                    <div class="news__footer">
+                        <a class="news__link" href="https://zen.yandex.ru/profile/editor/id/61f68c1bbd7b7a6741c335d9/publications" target="_blank">Увидеть больше постов</a>
+                    </div>
+          </div>
+      </section>
+
+     
+      <footer class="footer">
+          <div class="container">
+              <div class="footer__inner">
+                    <div class="footer__credits">
+                        <div class="footer__copyright">
+                            © 2022 NartovaNata. Created by Vyacheslav Boiko.<br>Все права на текстовые статьи, опубликованные<br>на сайте NartovaNata.com, охраняются <br>соответственно по законодательству Украины.<br>Все права защищены.
+                        </div>
+                        <div class="footer__social">
+                            <a href="https://instagram.com/nartova957?utm_medium=copy_link" target="_blank">
+                                <img src="img/grayInst.svg" alt="">
+                            </a>
+                            <a href="https://join.skype.com/invite/GY91001iipgV" target="_blank">
+                                <img src="img/grayFacebook.svg" alt="">
+                            </a>
+                            <a href="https://www.linkedin.com/in/%D0%BD%D0%B0%D1%82%D0%B0%D0%BB%D0%B8%D1%8F-%D0%BD%D0%B0%D1%80%D1%82%D0%BE%D0%B2%D0%B0-79a4a5230" target="_blank">
+                                <img src="img/grayLinkedin.svg" alt="">
+                            </a>
+                            <a href="https://t.me/I_am_Cheese" target="_blank">
+                                <img src="img/grayTelegram.svg" alt="">
+                            </a>
+                            <a href=" https://api.whatsapp.com/send?phone=0936545065" target="_blank">
+                                <img class="footer__whatsapp" src="img/grayWhatsapp.svg" alt="">
+                            </a>
+                        </div>
+                        <div class="footer__fixbugstext">
+                        Нашел ошибку или баг?<br><a href="https://t.me/NataliaNartovaSupport" target="_blank"><ins>Тут тех.поддержка</ins></a>
+                    </div>
+                    </div>
+            
+                    <nav class="footer__nav">
+                        <a class="footer__nav-link footer__nav-link-work" href="#раб">Работы</a>
+                        <a class="footer__nav-link" href="#об">Обо мне</a>
+                        <a class="footer__nav-link" href="#отз">Отзывы</a>
+                        <a class="footer__nav-link  footer__nav-link--btn " href="#" data-modal="#modal_hire_me">Предложить работу</a>
+                    </nav>
+              </div>
+          </div>
+      </footer>
+
+
+<!--Модальное окно1-->
+
+<div class="modal" id="modal_project_1">
+    <div class="modal__dialog">
+        <button class="modal__close" type="button" data-close>
+            <img src="img/close.svg" alt="Закрыть">
+        </button>
+        <div class="modal-work">
+            <div class="modal-work__preview">
+                <img class="modal-work__photo" src="img/artrit.jpg" alt="">
+            </div>
+            <div class="modal-work__content">
+                <div class="modal-work__header">
+                    <h3 class="modal-work__title">Рерайт Медицинского текста. Артрит.</h3>
+                    <div class="modal-work__info">
+                        SEO текст<span class="modal-work__info-divider">|</span>2021<span class="modal-work__info-divider">|</span>4$
+                    </div>
+                </div>
+                <div class="modal-work__text">
+                    <p><h4>Как лечить ревматоидный артрит.</h4>
+                        Ревматоидный артрит представляет собой постепенное разрушение синовиальных суставов и хряща с костью вследствие воспалительного процесса невыясненной причины.
+                        Данное заболевание бывает гораздо чаще у женщин старше 45 лет и приводит к инвалидизации.
+                        <h4> Причины недуга</h4>
+                        1.	Различные вирусы (корь, гепатит В, герпес);
+                        2.	Переохлаждение;
+                        3.	Эндокринные нарушения;
+                        4.	Генетическая наследственность.
+                        </p>
+                    <p> <h4>Какой механизм развития болезни</h4>
+                        В иммунитете человека при ревматоидном артрите наблюдается сбой, происходит выработка аутоантител, которые атакуют здоровые клетки. Сустав воспаляется изнутри. Происходит утолщение синовиальной оболочки паннус, она давит на хрящ и деформирует его, сустав сильно опухает. При отсутствии лечения под действием прогрессирующего воспалительного процесса деформируется кость, сухожилия.
+                        <h4>Симптомы заболевания</h4>
+                        Как правило, ревматоидный артрит симметричный и поражает чаще мелкие суставы, кисти, стопы, чем крупные.
+                       <h4> Характерными признаками являются:</h4>
+                        1.	Болевые ощущения;
+                        2.	Гиперемия;
+                        3.	Отечность;
+                        4.	Повышение температуры тела;
+                        5.	Ухудшение общего состояния;
+                        6.	Двигательная функция ограничена.
+                        </p>
+                    <p><h4>Ревматоидный артрит поражает также внутренние органы:</h4>
+                        •	Плеврит-воспалительный процесс в плевре;
+                        •	Ревматоидные узелки в лёгких (возникает у 30 %пациентов);
+                        •	Остеопороз костей;
+                        •	Синдром Шегрена;
+                        •	Пересыхание слизистой оболочки глаз и рта;
+                        •	Перикардит-воспалительный процесс развивается в сердечной сумке.
+                        <h4>Диагностика заболевания</h4>
+                        <h4>Лучшие врачи</h4>-ревматологи проведут консультацию. В нее входит сбор жалоб (особенное внимание обращают на утреннюю скованность суставов не менее 1 часа и припухлость).
+                        Далее назначают следующие исследования:
+                        •	Клинический анализ крови;
+                        •	УЗИ пораженного сустава;
+                        •	МРТ при необходимости;
+                        •	Рентгенография;
+                        </p>
+                        <p><h4>Как лечить ревматоидный артрит</h4>
+                           <h4> Медикаментозное лечение</h4> включает в себя следующие <h4>препараты:</h4>
+                            •	Противоревматические средства (метотрексат, орава, сульфасалазин);
+                            •	Глюкокортикостероиды;
+                            •	Генно-инженерные биологические средства.
+                            Терапия, как правило, очень длительная, иногда пожизненная. Схему лечения и препарат подбирает только врач, опираясь на клиническую картину заболевания и ее протекание и результаты диагностики. 
+                            Лечебная физкультура обязательна, специальный комплекс упражнений выполняется в группе с инструктором, позже дома самостоятельно.
+                            Физиотерапия заключается в применении магнитотерапии, Прогревание озокеритом, гидротерапия, массаж.
+                            Как лечить ревматоидный артрит хирургическим путем
+                            При запущенных поздних стадиях, когда консервативные методы лечения бессильны, применяют следующие виды хирургического вмешательства
+                            •	Синовэктомия:
+                            •	Эндопротезирование;
+                            •	Пластика костей, связок, сухожилий.
+                            Наша клиника обладает всем необходимым современным оборудованием для проведения всех видов лечебных и диагностических процедур. Цена на все виды исследования доступна для всех граждан и указана на нашем сайте. Стоимость лечения будет зависеть от выбранной методики и обсуждается индивидуально с нашим консультантом. Вы можете ознакомиться с многочисленными отзывами наших пациентов, которые оценили по достоинству эффективную прогрессивную методику лечения и довольны полученным результатом. Люди вернули подвижность в суставах, избавились от мучающих болей и обрели радость жизни. Важно начать терапию на ранней стадии, это увеличивает шансы на полное восстановление. Поэтому при первых признаках заболевания не затягивайте, обращайтесь к специалистам.
+                            
+                            </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="modal" id="modal_project_2">
+    <div class="modal__dialog">
+        <button class="modal__close" type="button" data-close>
+            <img src="img/close.svg" alt="Закрыть">
+        </button>
+        <div class="modal-work">
+            <div class="modal-work__preview">
+                <img class="modal-work__photo" src="img/artrit.jpg" alt="">
+            </div>
+            <div class="modal-work__content">
+                <div class="modal-work__header">
+                    <h3 class="modal-work__title">Рерайт Кулинарного текста. Сырники.</h3>
+                    <div class="modal-work__info">
+                        Рерайт<span class="modal-work__info-divider">|</span>2021<span class="modal-work__info-divider">|</span>5$
+                    </div>
+                </div>
+                <div class="modal-work__text">
+                    <p><h4>Сырники из творога на сковороде.</h4>
+                        Шаг1 Измельчаем творог при помощи сита. Творог для сырников можно выбирать любой жирности, как магазинный, так и домашний, главное условие, чтобы он не был суховат. Если берете творог на рынке, покупайте у проверенных продавцов, иначе при ненадлежащем приготовлении он может иметь специфический запах, который будет портить вкус блюда. При покупке магазинного творога, обращайте внимание на состав, чтобы не купить творожный продукт, так как при жарке он не будет хорошо держать форму. Измельчать творог можно, используя блендер или мясорубку, если сито отсутствует.  Творог измельчают для того, чтобы исчезли крупинки, и он стал нежнее, особенно это актуально, если вы готовите для маленького ребенка.
+<br>Шаг 2 Добавить к творогу сахар и тщательно перемешать. Можно это делать вручную или с помощью миксера на малых оборотах, главное, чтобы крупинки сахара растворились.
+<br>Шаг 3 К смеси добавляем яйцо и тщательно перемешиваем. Процесс может быть ручным или при помощи миксера.
+<br>Шаг 4 К полученной массе частями, понемногу добавляем муку и начинаем процесс перемешиваем, пока вся смесь не прекратит приставать к рукам. Далее сырное тесто отправляем в холодильник на 10 минут. Это делается для того, чтобы мука набухла. Предварительно, муку необходимо просеять, используя сито, несколько раз, тогда сырники будут нежнее. Также в холодильнике масса лучше скрепляется и ингредиенты соединяются между собой. Некоторые хозяйки предпочитают вместо муки использовать манку, это неплохое решение, так сырники получатся еще воздушнее.
+<br>Шаг 5 Сковороду с небольшим количеством масла разогреваем. Руки смачиваем водой, лепим круглый сырник и слегка его придавливаем. Придаем ему необходимую форму. Сковороду для жарки сырников лучше использовать антипригарную, чтобы сырники гарантировано не пригорели и хорошо переворачивались. Не забывайте использовать для переворачивания деревянную или силиконовую лопатку, чтобы не повредить поверхность сковороды. 
+<br>Шаг 6 Сырники обжариваем с обеих сторон до появления золотистой корочки. Накрывать сырники крышкой не нужно, они готовятся очень быстро, а при накрывании могут сильно увлажниться от пара, разбухнуть и потерять форму. Наша цель, образование корочки.
+<br>Шаг 7 Готовые сырники необходимо сначала выложить на бумажное полотенце. Это нужно для того, чтобы впиталось лишнее масло и изделия не вышли слишком жирными.
+<br>Шаг 8 Блюдо готово, выкладываем на тарелку сырники, они очень вкусны с вареньем, джемом или иным соусом.
+Сырники получаются нежными, вкусными, ароматными. При желании можно добавлять к сырникам ванилин, кокосовую стружку или распаренный изюм. Детки оценят такие добавки и будут уплетать сырники с еще большим удовольствием. Они полезные, богаты белком и протеинами, и будут прекрасным вариантом завтрака для всей семьи, дающего энергию на целый день. При этом блюдо быстро и легко готовится, а получается просто великолепным! Приятного аппетита. 
+
+                            
+                            </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="modal" id="modal_project_3">
+    <div class="modal__dialog">
+        <button class="modal__close" type="button" data-close>
+            <img src="img/close.svg" alt="Закрыть">
+        </button>
+        <div class="modal-work">
+            <div class="modal-work__preview">
+                <img class="modal-work__photo" src="img/artrit.jpg" alt="">
+            </div>
+            <div class="modal-work__content">
+                <div class="modal-work__header">
+                    <h3 class="modal-work__title">Написание авторского рассказа</h3>
+                    <div class="modal-work__info">
+                        Рассказы<span class="modal-work__info-divider">|</span>2021<span class="modal-work__info-divider">|</span>20$
+                    </div>
+                </div>
+                <div class="modal-work__text">
+                    <p><h4>Авторский рассказ. Слепая Нина.</h4>
+                        Потрепанная девятка подъехала к дорогому ресторану. Вокруг были припаркованы шикарные джипы и лимузины. Нина с мольбой глянула на водителя:<br>
+-«Ну чего я туда пойду? Не ждут меня там. Она ведь меня даже на свадьбу не пригласила, будто и не мать я ей вовсе!»-причитала женщина.<br>
+Ее сосед Панкратыч, который был водителем, строго ответил:<br>
+-«А ты не думай, ты сделай, что должна и уходи. Я здесь подожду»-сказал мужчина.<br>
+С тяжелым сердцем Нина потихоньку вошла в ресторан. Из-за серьезных проблем со зрением она почти ничего не видела, только размытые силуэты, дорогу прокладывала себе специальной палочкой.<br>
+В ресторане полным ходом шла свадьба. Оформление и обслуживание были на высшем уровне: зал шикарно украшен, стол ломился от дорогих изысканных блюд, играла живая музыка. Невесту звали Кариной. Она была просто обворожительна: платье ручной работы , расшитое стразами, с длинным шлейфом из дорогущего салона сидело идеально. В волосах была диадема с дорогими камнями, которая создавала образ принцессы из сказки. <br>
+Жених Валерий был ей под стать: респектабельный парень, сын большого чиновника, тщательно подобранный костюм, лаковые туфли, взгляд высокомерный и уверенный в себе. <br>
+Гости были тоже все уважаемые и важные люди-бизнесмены, чиновники.<br>
+Никто и не приметил вначале невысокую сухонькую пожилую женщину с палочкой и пакетом в руках. Одета она была очень скромно: простенькое, явно не новое, платье, заношенные туфли, седые волосы собраны в аккуратный пучок. <br>
+Только когда закончилась очередная песня, Нина почти на ощупь, спотыкаясь, подошла к микрофону и сказала:<br>
+-«Кариночка, доченька, я тебя поздравляю! Желаю тебе долгой и крепкой семейной жизни. Прими мой подарок и будь счастлива! Я тебя очень люблю, ты самое дорогое, что у меня есть!»-голос женщины предательски дрожал и срывался.<br>
+Она поставила на пол коробку, украшенную лентами. В ней был дорогущий набор посуды и иконка.<br>
+Невеста изменилась в лице, в зале повисла гробовая тишина, гости были в недоумении и замешательстве..<br>
+Нина неловко пыталась идти к выходу, помогая себе тростью. Карина вскочила, подбежала к матери, взяла ее под руки и быстро повела на выход. <br>
+В дверях зашептала:<br>
+-«Мама, ну зачем ты пришла? Что ты меня позоришь! Ты же видишь, какие важные люди здесь собрались! Иди домой»-раздраженно выговаривала она.<br>
+Вернувшись к гостям, девушка приторно улыбнулась и сказала, как бы извиняясь перед гостями:<br>
+-«Не обращайте внимания, все в порядке, просто небольшое недоразумение..»<br>
+Вскоре все забыли об этом инциденте и веселье шло дальше весело и задорно.<br>
+Нина же, всю долгую дорогу в райцентр, молчала, иногда вздыхала, и вспоминала прожитую жизнь…<br>
+Замуж Нина вышла рано, по любви, за хорошего парня, Леонида. Жили душа в душу, как все, о детках мечтали. Нина работала в роддоме медсестрой, Леонид был рабочим в лесу. Да только не судилось им прожить, как в сказке, долго и счастливо..<br>
+В тот злополучный день Нине позвонили с работы Лени и сообщили страшную новость:<br>
+-«Приезжайте быстрее, вашего мужа привалило деревом, он погиб. Приносим вам соболезнования».<br>
+Этот день разделил жизнь Нины на до и после..Были слезы, горе, похороны, тоска..<br>
+Много лет прошло с тех пор, сватались к Нине многие мужчины. Да только так и не смогла она больше никого полюбить, в душе , по прежнему было место только для него, для Ленечки. Так и жила женщина одна, привыкла уже, ни на что не надеялась..<br>
+Однажды в роддом на ее смене привезли очередную роженицу. Это была совсем молодая девчонка лет 17. При одном взгляде на нее было понятно - гулящая. Уличные замашки, развязное поведение. Пока рожала, кляла мужчин на все лады на чем свет стоит. <br>
+На девочку даже не взглянула, сказала только:<br>
+-Фух, наконец то все закончилось. Уносите ее. Отказ писать буду. Не нужна она мне. Хотела аборт сделать, да поздно уже было. У меня только жизнь начинается, а тут обуза такая».<br>
+А потом и вовсе собрала свои вещи и сбежала из роддома, так ее и не нашли.<br>
+Нина жалела малышку, часто проведывала ее, баюкала. И сердце ее оттаяло, прикипела она к ребенку всем сердцем! И решилась на удочерение. Собрала документы, прошла все круги бесконечных проверок и бумажной волокиты, но добилась своего.<br>
+Нина была счастлива, дочку назвала Кариной. Вся ее жизнь теперь сосредоточилась на дочери. Она отдавала ей  всю свою нерастраченную любовь и нежность.<br>
+Соседи поначалу судачили:<br>
+-«Совсем с ума сошла Нинка, сорок лет то уже стукнуло, ну куда в таком возрасте детей заводить! Пока вырастет- совсем бабкой станет!»<br>
+Но Нина не обращала ни на кого внимания, баловала, оберегала дочурку, тряслась над ней. Себе во всем отказывала, все лучшее Кариночке: сладости, игрушки, обновки. По дому тоже ничего не заставляла делать, берегла. Думала всегда: «Вырастет, успеет еще наработаться, пусть пока жизни порадуется».<br>
+Карина же, быстро поняв, что отказа ни в чем нет и мама выполняет все ее прихоти, действительно жила и радовалась: росла избалованной и своенравной девочкой.
+Подолгу крутилась у зеркала, примеряя очередную обновку, и приговаривала:
+-«Скажи, мам, я у тебя красавица!»
+Карина действительно выросла настоящей красавицей: густые каштановые волосы, точеная фигурка, миленькое личико с выразительными миндалевидными глазами.<br>
+Панкратыч, сосед Нины, хорошо к ней относился, они крепко дружили, старался помочь, чем мог, одинокой женщине с ребенком.<br>
+Он часто выговаривал Карине:<br>
+-«Избаловала тебя Нина совсем. Помогла бы ей. Все лето мать в огороде спины не разгибает, корячится, банки закручивает. А ты на речке да с подружками прохлаждаешься. Видишь же, что у матери беда с глазами. И не жалко тебе ее?»-совестил ее мужчина.<br>
+-«Ой, надоели вы мне все, вот школу закончу и укачу подальше из этой дыры. Буду жить по человечески»-фыркала недовольно девушка.<br>
+Вскоре Карина уехала в столицу, поступила на платное отделение в колледж. Нина еще туже затянула поясок, откладывала каждую заработанную копеечку для обучения дочери.<br>
+Зрение все ухудшалось. Но о том, чтобы лечиться и речи быть не могло. Нина все откладывала поход к врачу, думала так: «Не до этого сейчас. Нужно дочке помогать. Обойдусь как- нибудь, выкручусь. Пусть хоть она жизнь увидит, может потом матери спасибо скажет!»<br>
+А Карина, познав все прелести столичной жизни, стала приезжать к матери все реже и реже. Ей тоскливо и нудно было слушать расспросы и наставления, пирожки, испеченные Ниной с такой любовью, давно приелись до изжоги девушке. Да и сам вид вечно уставшей, полуслепой матери с неухоженными, натруженными руками, навевал уныние. <br>
+Карина, иногда не сдерживаясь, в сердцах выговаривала матери:<br>
+-«Ну почему мне так не повезло. Родилась в этом занюханном городке, живем в нищете! С копейки на копейку перебиваемся! Вот в столице –это настоящая жизнь. Другим вон девчонкам родители машины или квартиры дарят! А я так и проживу на съёмной всю жизнь!»-возмущалась девушка.<br>
+Нина лишь молчала и глотала горькие слезы. Обида комком сидела у нее  в горле. Она не раз думала про себя: « А может рассказать ей правду? Что если бы не она, Нина, то ее Карина вообще бы ничего не видела в детдоме или с мамашей родной гулящей!». Но каждый раз одергивала себя и сама себя успокаивала, надеясь, что ее дочь не такая жестокая на самом деле, что это только напускное, и со временем она одумается и все у них наладится. А ведь Нине, по сути, было нужно не так много, она все ждала таких простых человеческих слов от дочери: «Спасибо тебе мамочка за все, я тебя люблю!» И женщина была бы абсолютно счастлива!<br>
+Однажды и вовсе разразился в их доме страшный и оглушительный скандал.<br>
+Нина под вечер, как обычно, таскала тяжелые  ведра с водой и поливала свои любимые грядки, как вдруг услышала, как стукнула калитка. Нина , с трудом разогнув натруженную ноющую спину, щурилась  из-за плохого зрения и вглядывалась вдаль, думая: «Кто же это может быть? Панкратыч вроде ушел недавно, попрощались уже», недоумевала женщина.<br>
+По дорожке фурией бежала злющая, запыхавшаяся Карина, и даже не поздоровавшись с матерью, стала страшно кричать на нее:<br>
+-«Как ты могла? Ты почему мне не сказала, что удочерила меня? Я так и знала, что эта дыра не может быть моим домом!»-махала руками девушка.<br>
+-«Кариночка, дочура, ну что ты такое говоришь?»-слабо пыталась парировать Нина, а у самой аж ноги подкосились.<br>
+-«Тетя Валя, маринкина мать, мне все рассказала! Я бы может мать свою нашла и жила по другому, а не так, как ты!»-вопила еще сильнее девушка.<br>
+На шум начали сбегаться соседи, первым примчался Панкратыч, и слушал в недоумении.<br>
+И тут Нина не выдержала…Обида, столько лет сидевшая в ней, выплеснулась наружу:<br>
+-«Да, Карина, я тебя удочерила. Тебя твоя мамаша гулящая малолетняя бросила прямо в роддоме и укатила по мужикам! Я пожалела, полюбила тебя! Все для тебя Сама вон хожу голая, босая и слепая, лишь бы у тебя все было! Хоть бы спасибо сказала!»-выпалила женщина, рыдая и уже не сдерживая себя.<br>
+-« Да ты все врешь! Ненавижу!»-крикнула в гневе страшные слова Карина и выбежала за калитку.<br>
+Дальше Нина плохо помнила. Панкратыч подбежал к ней, схватил под руки уже почти обмякшее тело и повел в дом. По пути шикнул на соседей, чтоб расходились и не устраивали цирк на людском горе.<br>
+А соседи еще долго судачили о том, какой неблагодарной выросла дочь Нины, чужая кровь, что с нее возьмешь.<br>
+После скандала Карина совсем перестала приезжать, на звонки не отвечала…<br>
+Нина стала совсем подавленной и хмурой. Зрение на нервной почве совсем ухудшилось, женщина уже и ходить стала практически на ощупь. От одиночества и тоски ей хотелось волком выть! Серые будни скрашивали лишь преданный пес Шарик да кошка Мурка, которая, скрутившись колечком на коленях у Нины, подолгу мурчала ей и облизывала уставшие руки женщины, немного ее успокаивая.<br>
+Панкратыч, как мог, утешал бедную Нину:<br>
+-«Погоди, мать, не кручинься, одумается еще, вот увидишь, позвонит»-обнадеживал ее он.<br>
+Вдруг, спустя месяц, раздался долгожданный телефонный звонок. Нина бросилась к телефону, радостно предвкушая: «Неужели одумалась? Может помиримся?» Но голос на том конце провода быстро отрезвил женщину. Дочь сухим тоном сообщила, что выходит замуж в следующую субботу за богатого жениха и быстро положила трубку.<br>
+Несмотря на все обиды, Нина обрадовалась этой новости и в душе порадовалась за дочь. Рассказала обо всем Панкратычу.<br>
+Тот выслушал, помолчал, потом произнес:<br>
+-«Что замуж выходит, это хорошо конечно. А вот, что родную мать на свадьбу не позвала – это невиданное свинство!».<br>
+Нина вздохнула, на глаза навернулись слезы, она и сама понимала, что дочь поступает не по человечески.<br>
+-« Ты вот что, Нина, подарок ей приготовь. Я тебя на свадьбу отвезу. Не гоже это, чтоб родная мать дочь на собственной свадьбе не увидела!».<br>
+И вот результат, ехала Нина домой из ресторана с Панкратычем не солоно хлебавши. Не рада ей была Карина, практически взашей вытолкала, стеснялась ее, будто чужая была! Женщина все думала, думала и не находила для себя ответа, почему ее дочурка выросла такой жестокой и неблагодарной? Что она сделала не так? Чем ее обидела? Всю свою любовь по крупицам, всю жизнь ей отдала!<br>
+Карина после свадьбы была вне себя от счастья! Жить стали в двухэтажном особняке с мужем и его мамой, властной женщиной, Алевтиной Сергеевной. Отец же жениха был всегда в разъездах и командировках. По началу девушка была в восторге: шикарный дом, кухарка, прислуга, бассейн, чудесный сад. Она словно в рай попала, настолько сильным был контраст с ее стареньким домом, продавленным диваном и старой слепой матерью, которую девушка всегда стеснялась.<br>
+Алевтина Сергеевна была явно не в восторге от выбора сына, в душе ненавидела эту деревенскую хабалку без мозгов и манер. Не ровня она ее Валерочке! Но будучи женщиной умной и дальновидной, не хотела идти на открытый конфликт с сыном, видя, что тот влюбился по уши и понимая, что этим только оттолкнет его от себя. <br>
+Но для себя решила сразу – костьми ляжет, но этой выскочки в их семье не будет! Поэтому она начала изводить Карину не спеша и очень изысканно и планомерно.<br>
+Например, могла при важных гостях, невзначай бросить:<br>
+-«Кариночка, детка, пора уже в конце концов запомнить в каком порядке брать приборы за ужином в приличном обществе!»<br>
+Или также мило улыбаясь, произнести на званом вечере:<br>
+-«Бог мой! Какое ужасное платье! Что за дурной вкус? Хотя чего же еще ждать от провинции!»-ядовито позорила перед гостями Карину свекровь.<br>
+Девушке было страшно обидно, она плакала и жаловалась Валере, но тот лишь отмахивался, он был полностью маменькиным сынком и во всем ей доверял.<br>
+Валере скоро наскучила Карина, он пресытился молодым красивым телом, и все чаще стал пропадать в модных клубах с друзьями до утра и развлекался с гламурными девицами.<br>
+Карина плакала, страдала, пробовала поговорить со свекровью по душам, но та лишь язвила, что она уже девочка большая и должна проблемы со своим мужем решать сама. Свекровь ликовала в душе, ее план сработал!<br>
+Вскоре Карина забеременела. Она была счастлива! Теперь ее Валера одумается, деваться ему будет некуда! Рассуждала девушка.<br>
+Вечером она решила устроить мужу романтический ужин. Зажгла свечи, накрыла на стол, одела кружевной пеньюар, и решила в такой расслабляющей обстановке сообщить ему эту новость. Она прождала его до полуночи, нервничала. Наконец полупьяный муж ввалился в комнату и сыто икнув, упал, не разуваясь на кровать. От него за километр несло женским парфюмом.<br>
+Карина не выдержала, ее обуял гнев:<br>
+-« Валера, ну сколько можно? Я тебя так ждала! Я беременна! У нас малыш будет! А ты так себя ведешь! Тебе не стыдно?»-кричала она.<br>
+Вдруг муж вскочил с кровати, глаза налились кровью, и он стал идти на нее, угрожающе шипя:<br>
+-« Ты на кого рот открыла? Дура! Я тебя подобрал, так радуйся! И терпи! Я еще не нагулялся! Аборт сделаешь, я договорюсь. А еще раз посмеешь мне перечить, я тебя научу мужа уважать!»-и он занес руку и отвесил девушке звонкую пощечину.<br>
+Затем как ни в чем не бывало, завалился спать и захрапел на всю комнату.<br>
+Карина была раздавлена и морально уничтожена. Муж оказался подонком, свекровь ее откровенно ненавидела! В их окружении она чувствовала себя белой вороной и нищенкой. Она проплакала всю ночь, не зная, как ей поступить. С горечью она вспомнила, как жестоко и подло она поступила с мамочкой! А ведь она наверняка бы сейчас ее приголубила, обняла, поняла по женски.  Какая же я была дура! Не видела очевидных вещей, променяла самого близкого и родного человечка на этих жестоких и злых людей, которые ее и человеком то не считают. А что делать с ребенком? Тут она вспомнила слова Нины, что ее родная мать была гулящей и непутевой, и бросила ее в роддоме. Ей стало страшно – неужели и она поступит также?<br>
+И Карина решила рискнуть, бросить все, вернуться домой, упасть в ноги маме и покаяться! Будь что будет..<br>
+Собрав потихоньку все свои вещи в чемодан, Карина оставила на туалетном столике обручальное кольцо и , стараясь не привлекать внимание, выскользнула из ненавистного особняка, ставшего для нее невыносимой тюрьмой за последний год. <br>
+Она наняла такси и поехала домой. По дороге остановилась возле магазина и наверное в первый раз в жизни, с любовью и нежностью в душе выбирала маме подарки: теплую шаль, новые удобные туфли и нарядное платье. Вспомнив, в чем ходит всю жизнь ее мама, ей стало стыдно за себя в очередной раз, она осознала, насколько черствой и неблагодарной она была по отношению к этой святой женщине!<br>
+Подойдя к дому, она долго стояла на пороге и не решалась войти. Что сказать? Как посмотреть в глаза? Как вымолить прощение? Сомнения раздирали девушку, сердце бешено колотилось. А вдруг не простит? Имеет право, переживала девушка.<br>
+Вдруг дверь отворилась, и неуверенно шаркая, Нина вышла на порог сама, услышав возню и радостное поскуливание Шарика. Не может быть! Неужели приехала? Да нет, показалось наверное…<br>
+Мать с дочерью встретились и обе разрыдались, обнявшись. Их души настолько истосковались друг по другу, что не нужно было никаких слов и объяснений, обе были счастливы от встречи!<br>
+Потом они долго пили чай с душистыми травами и пирожками..И вкуснее этих маминых пирожков, казалось ничего не существовало для Карины.<br>
+Нина, наконец то услышала такие долгожданные и нужные ей слова «Спасибо, мамочка за все, я тебя люблю».<br>
+Карина, не без опасений, рассказала о беременности:<br>
+-« Что делать, мам? Я малыша очень хочу оставить! Но ведь денег нет, работы тоже?»-спросила дочь.<br>
+-«Доченька, милая, даже думать не смей дурного! Я тебя одна подняла, и внука вырастим с Божьей помощью. Ни о чем не думай, рожай»-благословила ее мать.<br>
+Карина родила в срок здоровенького крепыша, назвала Леонидом, знала, что маме будет приятно. Жили дружно, дочь во всем помогала матери, возилась в огороде, спозаранку бежала на рынок продавать ягоды и овощи, чтоб всегда иметь копеечку. Вскоре Нина помогла устроиться Карине в роддом, где сама проработала много лет. Жизнь потихоньку наладилась. Одно печалило Карину все сильнее – мама уже почти ослепла, на глазах будто пелена была белесая. Дочь, наконец то спустя много лет, отвезла маму к врачу.<br>
+Те сказали неутешительную новость:<br>
+-Что ж вы так затянули, дорогуша! Нужна срочная операция, тянуть нельзя! Мы готовим вашу маму на послезавтра, ищите деньги».<br>
+-«Да, хорошо, я найду деньги!»-бодро ответила Карина, хотя на самом деле не знала, где будет искать такую сумму.<br>
+Побежав домой, первым делом пошла за малышом к Панкратычу, тот согласился с ним понянчиться, пока Карина занималась мамой.<br>
+К ее удивлению, Панкратыч играл с Леней и еще каким то приятным парнем, все вместе они хохотали и весело изображали паровоз, ползая по полу и раздувая щеки.<br>
+Оказалось, что это племянник соседа, Сергей, неожиданно с заработков домой вернулся. Молодые люди познакомились и явно понравились друг другу. Карину этот улыбчивый, открытый парень покорил, настолько ловко он играл с малышом, и тот тоже к нему шел с радостью.<br>
+Карина рассказала Панкратычу о своей беде, что уже оббегала всех знакомых, дома все сусеки поскребла, и даже половины суммы еще не нашла, в банк сходила, но там целую неделю ждать надо, а времени нет совсем. Тот обещал что- нибудь придумать. Девушка забрала Ленечку и пошла его кормить и спать укладывать.<br>
+Уложив сына спать, Карина хлопотала по хозяйству, дел было невпроворот, еще и маме в больницу передачку собрать нужно. Девушка все время корила себя, понимая, что это только ее вина, что с мамой так вышло! Ей было в очередной раз безумно стыдно за свою черствость и бездушие.<br>
+Вдруг Шарик залаял изо всех сил, в калитку постучали. Ай Ай Ай, подумала Карина, хоть бы сынуля не проснулся, и побежала открывать, позабыв впопыхах снять косынку и фартук.<br>
+На пороге стоял Сергей. Он невольно залюбовался девушкой, до того она была смешная, и вместе с тем обаятельная в косыночке в горошек, съехавшей на бок, из под которой выбивались непослушные волосы…<br>
+-«Я это, тут подумал..Вот возьмите, это вам, тут деньги. Вернете, когда сможете»-и парень протянул Карине конверт.<br>
+-« Да вы что! Спасибо вам огромное! Я все верну до копеечки»-и Карина расплакалась и кинулась на шею Сергею.<br>
+Операция прошла успешно. Нина вскоре вернулась домой, и наконец то, за долгие годы, с удивлением и интересом рассматривала все вокруг, ведь она и позабыла уже, как выглядят самые простые предметы и близкие люди, жила в пелене и размытых очертаниях.<br>
+Карина сблизилась с Сергеем, он для нее стал спасителем, героем, и она ему была безумно благодарна! Вот ведь удивительная штука жизнь, не раз думала девушка, у Валеры было все, чего душа пожелает, а он и пальцем не пошевелил, чтоб она осталась, ему было плевать на нее, а уж на ребенка и подавно. А Сергей, чужой по сути человек, оказался настолько добрым и отзывчивым, не смог пройти мимо чужой беды!<br>
+Вот уж действительно, правильно говорят, что ценить и любить человека нужно прежде всего за его душу и доброе сердце, а не за толстый кошелек! Теперь Карина это точно знала.<br>
+И Нина и Карина были абсолютно счастливы, собираясь по вечерам во дворе за большим столом одной большой дружной семьей: Карина с Сережей и Ленечкой и Нина с Панкратычем. Все дружно ужинали, подолгу чаевничали и вели беседы обо всем на свете. И не было роднее и ближе людей на земле!<br>
+
+                            </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="modal" id="modal_project_4">
+    <div class="modal__dialog">
+        <button class="modal__close" type="button" data-close>
+            <img src="img/close.svg" alt="Закрыть">
+        </button>
+        <div class="modal-work">
+            <div class="modal-work__preview">
+                <img class="modal-work__photo" src="img/artrit.jpg" alt="">
+            </div>
+            <div class="modal-work__content">
+                <div class="modal-work__header">
+                    <h3 class="modal-work__title">SEO текст. Приобретение жилья в новостройке.</h3>
+                    <div class="modal-work__info">
+                        SEO текст<span class="modal-work__info-divider">|</span>2021<span class="modal-work__info-divider">|</span>4$
+                    </div>
+                </div>
+                <div class="modal-work__text">
+                    <p>Title: Новостройки в Киеве – купить квартиру в Киеве недорого
+                        Description: На сайте «Энциклопедия новобудов» можно выбрать и купить недвижимость в Киеве по цене застройщика. 
+                        </p>
+                    <p> <h4>Приобретение жилья в новостройке</h4>
+                        Для любого человека приобретение собственного нового жилья является очень ответственным, важным и счастливым моментом жизни. Дело это непростое и сопряжено с определенными рисками. Сюда можно отнести и недобросовестных продавцов, и выявление огрехов в квартире после покупки. Тщательный выбор объекта недвижимости в Киеве поможет сделать жизнь в приобретенной квартире максимально комфортной.
+                        </p>
+                    <p><h4>Покупать квартиру в новостройке очень выгодно</h4>
+                        •	Приобретая квартиру в Киеве от застройщика гораздо выгоднее, чем других видов недвижимости. Основные преимущества:
+                        1)Вы приобретаете квартиру с нуля, с новыми коммуникациями и отделкой, изготовленную из новых материалов;
+                        2)Современная и грамотная планировка;
+                        3)Заключение договора с надежной компанией исключает мошенничество;
+                        4)удобная инфраструктура
+                        При возведении новостроек используются качественные и современные материалы, а также коммуникации выполнены по новым технологиям (например теплый пол), поэтому за уровень комфорта можно не переживать.
+                        <h4>На что обращать внимание при выборе новостройки Киева на сайте «Энциклопедия новобудов»</h4>
+                        Ключевым фактором, влияющим напрямую на качество жизни в квартире можно назвать ее расположение.
+Сюда относятся:
+-Насколько близко имеется развитая инфраструктура;
+-Наличие удобной транспортной развязки;
+-Наличие паркинга.
+Согласитесь, гораздо приятнее, когда школа и садик, а также крупные магазины, банки находятся недалеко и не придется добираться туда через весь город по пробкам, еще и тратить дополнительные финансы. Также важно, чтобы поблизости не было крупных предприятий тяжелой промышленности, чтобы экологическая обстановка была в пределах нормы.
+
+                        </p>
+                        <p><h4>Какие районы Киева считаются наиболее престижными</h4>
+                            •	Печерский район является лидером по популярности. Здесь отличная транспортная развязка, позволяющая добраться в любой конец города. Многообразие торгово- развлекательных заведений делает этот район деловым;
+                            •	Голосеевский район ценится за экологичность и считается самым зеленым. Здесь очень много достопримечательностей, парков, озер. Жилье здесь в основном класса комфорт.
+                            •	Дарницкий район, находящийся на Левом берегу Днепра, считается спальным массивом и понравится семьям с детьми и пожилым людям. Здесь много зон отдыха, цены на различные товары существенно ниже, чем в центре.                            
+                            </p>
+                            <p><h4>От чего будет зависеть цена новостройки</h4>Купить квартиру в Киеве можно на стадии котлована, здесь будет самая низкая цена. По мере завершения работ(возведение стен, отделочные работы) цена соразмерно увеличивается. Также стоимость варьируется в зависимости от класса жилья, самыми распространенными вариантами являются квартиры комфорт класса.
+                                Если вас интересует покупка или продажа квартир в Киеве, на сайте «Энциклопедия новобудов»  вы можете просмотреть все новостройки Киева с описанием, стоимостью, отзывами реальных людей и другой полезной информацией.
+                                </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="modal" id="modal_project_5">
+    <div class="modal__dialog">
+        <button class="modal__close" type="button" data-close>
+            <img src="img/close.svg" alt="Закрыть">
+        </button>
+        <div class="modal-work">
+            <div class="modal-work__preview">
+                <img class="modal-work__photo" src="img/artrit.jpg" alt="">
+            </div>
+            <div class="modal-work__content">
+                <div class="modal-work__header">
+                    <h3 class="modal-work__title">Рерайт статьи. Корейская платформа.</h3>
+                    <div class="modal-work__info">
+                        SEO тексты<span class="modal-work__info-divider">|</span>2021<span class="modal-work__info-divider">|</span>6$
+                    </div>
+                </div>
+                <div class="modal-work__text">
+                    <p><h4>Обзор корейской платформы KOK PLAY.</h4>
+                        Сегодня темой нашего обсуждения будет интересная игровая платформа KOK PLAY. Играй, инвестируй, и с легкостью получай неплохой доход. Заманчиво, не правда ли? Разберем, развод это или лохотрон, узнаем условия, суть маркетинга, ознакомимся с отзывами реальных людей.
+                        <h4>Оглавление</h4>
+                        1)	Что собой представляет платформа
+                        2)	Суть ее бизнесмодели
+                        3)	Виды заработка в KOK PLAY
+                        4)	Маркетинговая стратегия
+                        5)	Как зарегистрироваться
+                        6)	Отзывы и выводы                        
+                        </p>
+                    <p> <h4>Что собой представляет платформа</h4>
+                        KOK PLAY позиционирует себя как децентрализованная инновационная платформа, рассчитанная на цифровой и развлекательный контент. Она построена на блокчейне и использовании искусственного интеллекта. Платформа является корейской и относится к компании KOK FOUNDATION. 
+                        В Сеуле расположен главный офис. Филиалы же имеются в Китае, Тайланде, Тайвани, Японии, Вьетнаме.
+                        Отличным моментом можно назвать тот факт, что в руководстве очень известные люди. Например, управляющий директор Samsung, Янг Сон. В странах Азии платформа очень раскручена и по рейтингу популярности имеет больше 200000 участников.
+                        В нашей стране KOK PLAY начал свою работу в декабре 2019 года, старт был плавным, и только сейчас он становится известным. Официальный сайт имеется, но минус его в том, что он на корейском языке.
+                        Как и в любом высокодоходном проекте, инвестировать лучше именно сейчас, в начале его деятельности.
+                                                <h4>Возможности платформы:</h4>
+                                                1)	В ней собран микс из лучших сфер деятельности Apple Store, Google Play, YouTube и Amazon.
+                                                2)	Любой пользователь может играть, слушать и записывать любое видео, торговаться, делать инвестиции благодаря доступному приложению, которое имеется на Apple Store, Google Play.
+                                                3)	Для публичных людей (разработчиков, музыкантов, певцов) имеется возможность размещать свои творения и собирать огромное количество просмотров (принцип Тик-Ток), получая при этом постоянный доход.
+                                                4)	Для руководителей и партнеров корпорации PHR Group регулярно проводятся мероприятия с внедренной технологией blockchain. Проект KOK Play единственный, кто берет в этом участие. Он постоянно взаимодействует с известными мировыми развлекательными компаниями и обменивается опытом.
+                                                5)	Внутренней валютой криптовалютного кошелька является монета KOK-coin. Уровень ее ликвидности поддерживается, цена постепенно растет, с помощью нее осуществляются все расчеты и сделки.
+                                                Имеет котировку на 3 крупных криптовалютных биржах:
+                                                ZBG (Гонконг), Bithumb (Корея), Bittrex (США). 
+                                                KOK-coin является реально реализованной монетой, которую используют для многих видов развлечений, игр, маркетплейсов. В то время, как другие альтернативные деньги предназначены только для торговли на бирже. Если нужно ввести или вывести средства, используют биткоин или эфир.
+                                                Показательным моментом можно считать тот факт, что KOK-coin участвует в торгах на бирже Bittrex, самой известной бирже криптовалюты в США. Это биржа с безупречной репутацией, строго следящая за выполнением всех требований, быстрыми транзакциями и безопасностью. В результате этого рост монеты KOK-coin увеличился на 50%, по количеству торгов она опередила многие криптовалюты.
+                                                Согласно прогнозам, популярность монеты КОК продолжает увеличиваться, ею интересуются и пользуются участники из США и России.
+                       <h4> Суть бизнес модели</h4>
+                       На чем основан заработок самой платформы:
+                       •	Наличие собственного интернет-магазина и торговля товарами через приложения KOK Play;
+                       •	Доход от продажи различных видов рекламы (баннерной, поисковой, с компенсацией)
+                       •	Просмотр фильмов, игр и музыки через платный контент;
+                       •	Сделки, совершенные при помощи искусственного интеллекта.
+                        </p>
+                    <p><h4>Плюсы и выгоды Hotel King:</h4>
+                        •	•	Пользователи более чем из 20 стран мира инвестировали деньги в игру;
+                        •	Средства в работе круглый год;
+                        •	Высокая доходность на улучшении отеля;
+                        •	Возможность в любой момент вывести тело депозита и проценты;
+                        •	Вклады возможны сразу в нескольких валютах.                        
+                        <h4>Отзывы и выводы</h4>
+                        По моему мнению, KOK Play – это выгодный и перспективный проект.
+В пользу этого приведу следующие факты:
+•	Дорожная карта выполняется точно в срок, платформа достаточно прозрачна, все этапы четко прописаны;
+•	Наличие известных личностей в руководстве компании, которые не первый день в ней учувствуют, придает уверенности в надежности проекта;
+•	Высокие проценты – это больше рекламный ход, нацеленный на раскрутку, нежели признак хайпа;
+•	Отсутствие плохих отзывов в сети, хотя компания существует за рубежом не первый год.
+Но выбор, конечно же за вами – удачных вам инвестиций!
+
+                            </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<div class="modal" id="modal_project_6">
+    <div class="modal__dialog">
+        <button class="modal__close" type="button" data-close>
+            <img src="img/close.svg" alt="Закрыть">
+        </button>
+        <div class="modal-work">
+            <div class="modal-work__preview">
+                <img class="modal-work__photo" src="img/artrit.jpg" alt="">
+            </div>
+            <div class="modal-work__content">
+                <div class="modal-work__header">
+                    <h3 class="modal-work__title">Реферат</h3>
+                    <div class="modal-work__info">
+                        Студенческие работы<span class="modal-work__info-divider">|</span>2021<span class="modal-work__info-divider">|</span>18$
+                    </div>
+                </div>
+                <div class="modal-work__text">
+                    <p> <h3>Текст опубликован не полностью, по согласованию с клиентом.</h3>
+                        <h4>Введение.</h4>
+                        Что собой представляет человек? Вопрос и простой и сложный одновременно. Поиск человеческой сути является ключевым и традиционным для философии. Проблемы человека занимают огромную нишу в философии и являются одними из самых важных вопросов мировоззрения на протяжении всего исторического процесса. Человек – это основа бытия, а ведь это основополагающее философское понятие. Становится ясно, что ключевой темой для обсуждения философов является вопрос о сути человека, его призвании, смысле жизни и существовании в этом мире. Только обсуждение и анализ различных научных дисциплин даст общее понятие о человеке. Исходя из этого человекознание выделено в отдельную научную дисциплину и категорию. Философия рассматривает человек не однобоко, как, скажем, анатомия или психология, а в целом. Человек, с точки зрения философии, это универсальный и многомерный организм, который един во всех проявлениях духовно-практической деятельности. В большинстве школ и философских учениях суть и природа человека изучается обязательно. Конечно же, не только проблема происхождения и развития человека интересует философов. Большой спектр проблем методологии и мировоззрения изучает философская антропология. Понятие человек слишком обобщено для характеристики субъекта исторической деятельности, поскольку оно включает в себя совокупность всех присущих качеств и умений. Человек в первую очередь биосоциальный организм, поскольку имеет не только логические качества, но и общественную деятельность. Человек способен осознавать свою роль во Вселенной, и на протяжении жизни думает об этом.
+                        <h4> 1.Что такое человек. Феномен человеческой жизни</h4>
+                        Существование человека происходит в трех разных измерениях: социальном, психологическом, биологическом. Биологическое представляет собой такие явления, как морфофизиологические, генетические, нервно-мозговые и т.д. Психическое измерение подразумевает внутренний мир и душевное состояние человека. Сюда относятся осознанные и подсознательные процессы, характер, темперамент, память, эмоции. Нельзя взять какой то один аспект и судить по нем о феномене человека, поскольку человек – это целостный организм. 
+                        Есть такое выражение: «Человек – существо разумное».[ ] В чем же заключается тогда мышление? Зависит ли оно лишь от биологических факторов или же от социальных тоже. На эти вопросы нельзя дать простой ответ. Мышление человека является очень сложным феноменом, включающим в себя биологические, психологические и социальные факторы. Его материальная сущность конечно зависит от физиологических процессов, однако его наполненность включает в себя психические и социальные факторы. При этом все эти факторы настолько переплетены между собой, что, например социальный фактор может быть и психическим посредством эмоционально-волевой сферы.
+                        Нераздельно друг от друга существующие в человеке социальные и биологические составляющие в своей абстракции показывают только крайние состояния среди огромного количества характеристик и деятельности человека. Рассматривая человека в рамках биологической составляющей можно спуститься на ступень его биофизических и функциональных особенностей, нацеленных на саморегулирование обмена веществ и энергии для сбережения целостного организма. С этой точки зрения человек является лишь оболочкой для биологической формы движения материи. Однако нельзя рассматривать человека лишь как биологический вид организма, поскольку социальная сфера играет определяющую роль. Поэтому, перемещаясь со ступени биологической составляющей на степень духовной и психологической сути, мы увидим социально-психологические особенности человека, в первую очередь как личности.
+                        Личность человека неразделимы с его организмом. В свою очередь его организм находится во взаимосвязи с природными явлениями, а как личность неразрывно связан с социумом и культурой.
+Философия изучает личность человека со стороны биологической и социальной. Генетика или наследственность являются определяющим фактором биологической стороны. Для социальной стороны основополагающим фактором является деятельность человека в культурно исторической сфере общества. Эти два понятия не могут рассматриваться по отдельности, а только в совокупности может раскрыть суть человека. Однако векторы могут варьироваться в ту или иную сторону в познавательных или практических целях. Но в конечном счете для осмысления сути человека совмещают все же обе стороны.
+Объектом изучения может выступать, например, проявление природной и биологической составляющей социально адаптированного человека, либо, наоборот, социально-психологическая составляющая природной основы человека. Однако суть человеческой личности в обоих случаях опирается на объединении социального, биологического, психического начала. В противном случае изучение из человеческой сферы переместится к биологическим исследованиям, преследующем научную цель или изучению культуры и отдалятся от деятельности человека.
+Феноменов существования человека очень много. Сюда относится смерть, послесмертие, здоровье, фантазии, чувства.
+Смерть изучалась античными философами с древних времен. На уровне сознания человек не принимает неизбежность смерти. С точки зрения биологов человек расплачивается смертью за дифференциальное развитие.
+Законами эволюции мы, безусловно, обречены к смерти, однако ее конкретный индивидуум способен пережить лишь как личностную трагедию.
+Впрочем, если следовать Фрейду, никто в собственную смерть, а общем то, не верит до конца.
+ Можно, утверждается, познать пустоту небытия однако осознать уход из жизни в пустоту, ничто, до конца не представляется возможным.
+В определенной степени именно по указанной причине смерть, как темная, 
+непознанная сила невольно обращает человеку  самого себя с некоторой неожиданной стороны.
+ Философское понятие послесмертия остаётся проблемой, ведь "ничто" в этом разумении не представляет смысла. А ведь мысль и есть инструмент философа.
+ Не менее важным аспектом человеческого бытия, приобретающего ключевое значение в жизни, является вопрос степени свободы нашей воли. Именно она является мощнейшим движителем возможности самовыражения человека, потребность выбирать свою судьбу, путь своей жизни, а не плыть "по течению" волею обстоятельств.
+ А чувство страха, по сути, вообще лежит в основе всей нашей жизни. Это мощнейший мотиватор наших поступков, как плохих, так и хороших.
+В то же время не следует забывать, что страх имеет различные формы он многообразен и противоречив.Достаточно часто встречаются люди, которым неведом страх смерти и в то же время они страшатся, казалось бы, сущего пустяка в виде насмешек над собой, к тому же достаточно часто не имеющих никаких оснований.  
+Невозможно в этом плане отделить страх от страдания, ведь  в основе страдания как раз и лежит страх о чем то за кого то. Именно в страдании находит себя человек,  а религии, так как вчера во Всевышнего даёт ему путь от одиночества к  приобщенности к Богу.
+ Высшей же ценностью для человека, несомненно, является здоровье. Не случайно именно его всегда желают близкому, родному, ведь если есть здоровье, то все остальное, само приложится. Хорошее здоровье есть источник наслаждения,  без здоровья ничто не доставит истинного наслаждения  в жизни.
+А побудительным мотивом самого  существования человека является любовь, устремленность всего естества на другую личность, возможно, идею, которая преобладает в некоторых случаях на любовью к другому человеку.                        
+                        </p>
+                    <p> <h4>2.Проблема человека в исторических этапах философии</h4>
+                        Ключевым аспектом философии является проблема человека. Ее актуальность возрастает в разы в критические периоды исторического развития, поскольку в это время особенно остро идут споры о том, каков смысл и цель существования не только индивидуума, но и социума в целом. Эти характеристики присущи отечественной истории. Чтобы шире представить развитие в нынешнее время философской антропологии нужно изучить этапы ее становления и сопоставить результаты, которых удалось достичь в контексте истории философии.
+                        <h4>2.1 Древневосточная философия о человеке</h4>
+                        Истоки мировосприятия человека появились намного раньше самой философии. В древнейшие времена сознание человека имело религиозную и мифологическую форму. Познание смысла жизни, природных явлений прослеживается в преданиях, сказаниях и мифах. Фундаментом для ясного философского познания человека выступает симбиоз между заложенными представлениями , идеями, образами и создающейся философией и мифологией. Именно так формируются первые знания о человеке в восточных государствах древнего мира.
+Первыми упоминаниями о древнеиндийской философии являются Веды, где собраны мифологический, религиозный и философский взгляд на мир. Учение о человеке рассматривается и в приближенных к Ведам текстах упанишадах. Здесь упор делается на нравственный аспект проблемы, как не поддаться страстям и освободиться от пагубного влияния. Степень совершенства и нравственности напрямую зависит от того, насколько он успешно избавился от чего то пагубного. Это достигается путем погружения собственной души (атмана) в душу мира (брахмана).
+Согласно философии Древней Индии человек является составляющей мировой души. В сансаре (учении о переселении души) черта между живыми организмами и высшими силами осязаема. Однако только человеку свойственно хотеть свободы от страстей и из эмпирического существования, опирающемся на закон сансары – кармы. В этом весь парадокс упанишад. Философия человека в Индии полностью зависит от упанишад. Они связаны с учениями джайнизма, буддизма, индуизма, йоги. Философ М.К. Ганди также разделял во взглядах эти догмы.
+Яркий представитель древнекитайской философии Конфуций создал концепцию «неба»[ ], где высшая духовная сила определяет становление мира и человека, а не только часть природы. Ключевой фигурой его философии выступает именно человек, его жизнь на земле и ее антропоцентристская сущность. Особое внимание Конфуций уделял нравственному аспекту жизни человека. По его мнению, высшие силы наградили человека этическими качествами, поэтому он должен соблюдать нормы морали (дао) и развивать в себе эти качества. Сутью познаний Конфуций считал восхождение на ступень «идеальный человек», «благородный муж» (узюнь-цзы). Для того, чтобы этого добиться, следует соблюдать перечень правил. Ключевым фактором является мировоззрение жэнь . Сюда входят такие понятие, как гуманность, человеколюбие – это определение закона идеальных взаимоотношений в семье и стране «не делай людям того, чего не желаешь себе». Эта догма является опорой для учений «семи мудрецов» в Древней Греции, Библии, у Канта. Основным направлением Конфуций считал принцип сяо, который гласит: сыновняя почтительность и уважение к родителям и старшим. Философ считал его главным способом руководства страной, считая ее тоже семьей, только в более широком смысле слова. Справедливость и этикет Конфуций считал основополагающими принципами.
+Даосизм является еще одним направлением в философии Древнего Китая, его основоположник Лао-цзы. Концепцией даосизма является учение о дао (дорога, путь), естественный, вездесущий закон природы, мировоззрение каждого человека. Люди должны соответствовать принципу дао, природа человека и его поведение должны быть уравновешенны. Лао-цзы считал, что выполняя принципы дао можно получить полную свободу, счастье, благополучие даже при полном бездействии.
+Изучая философию человека на Древнем Востоке можно сказать, что ее фундаментом является гуманизм, по отношению к социуму и природе. Еще одним вектором можно считать улучшение внутреннего мира человека. То есть, все внешние факторы, такие как общественная жизнь, порядки, руководство могут меняться только тогда, когда начнет меняться сам человек и приспосабливаться к социуму, а не сами по себе. Только сам человек решает, будет ли он себя спасать или улучшать. Трансцендентализм, основой которого является то, что судьба человека взаимосвязана с запредельным миром, тоже является особенностью философского антропологизма.
+Очевидно, что древневосточная философия очень повлияла на дальнейшее учение о человеке и сформировала культурные азы и традиции восточных стран. И в нынешнее время мировоззрение людей этих стран зависит от эталона идей, заложенных в древний период.
+                       <h4> 2.2.Концепции проблемы человека в древнегреческой философии</h4>
+                       Западноевропейская философская традиция берет свое начало в античной Греции. Согласно философии Древней Греции, человек не может существовать отдельно, только во взаимоотношениях абсолютного порядка и космоса. Мир един и неделим, в нем собранны природная и социальная среда, соседи, обьекты, одушевленные и нет, животные и Боги. Боги для людей вполне реальны. Космос наделен человеческим смыслом, вместе с тем человек является его частью (микросом). Представители милетской школы отстаивали позиции гилозоизма, они не признавали границ между живыми и неживыми, универсум считался одушевленным. Вектор на проблематику антропологии появился вследствие трудов Сократа и софистов, явившихся основоположниками философской этики. Протагог считал: «Мера всех вещей – человек, существующих, что они существующих, а несуществующих, что они не существуют».
+                       Концепция софистов делится на три важных составляющих:
+                       •	Такие этические феномены, как справедливость, добродетель понимаются как релятивизм и субъективизм;
+                       •	Человек – основа бытия;
+                       •	Познание имеет экзистенциальный смысл.
+                       По мнению Сократа, главное в человеке – это душа и добродетели. «Добродетель есть знание»[ ] - это основа этического рационализма. Суть в том, что если человек знает, что такое добро и справедливость, он не поступит плохо и нечестно. Цель человека – стремление к нравственному идеалу, познавая истину. Для этого нужно познать свою нравственную сущность и реализовать ее. Сократ через всю жизнь пронес нравственный пафос философии человека, он отказался от жизни ради справедливости этому подтверждение.
+                       Душа погибает при смерти вместе с телом.
+ Этическая же концепция Демокрита такова: самый главный смысл жизни – это счастье, заключающееся в радости и настроении (эвтюмии), а не в эгоизме и телесных наслаждениях. Однако, по его мнению, человек должен силой разума сдерживать себя и не поддаваться страстям, в этом проявляется мужественность.
+Платон же, наоборот, продвигает идею души и тела. Именно благодаря душе человек может считаться человеком, тело же позиционируется, как материя зла. Образ человека и его место в обществе определяется состоянием его души. На верхней ступени градации души лежит душа философа, на нижней – тирана. Душа у философа тянется к мудрости и знаниям, а ведь это и отличает человека от животного. По сравнению с телом, которое умирает, душа тянется к трансцендентному миру идей и она вечна. Именно это учение заложило фундамент для средневекового религиозного учения о человеке. Вечное противостояние души и тела заключается дилемма человеческого бытия.
+Аристотель считает, что человек представляет собой общественное животное, умеющее мыслить. Основное отличие  - разум и общественная деятельность. Аристотель наиболее близко формирует положения о деятельностной составляющей человека. По его мнению для самореализации человека необходима активная деятельность, только так можно достичь добродетельной жизни.
+Период распада древнегреческого общества стал толчком для формирования новой стороны философского антропологизма, так называемой логотерапевтической.
+Эпикур считал, что философия лечит душу так же, как медицина тело. Индивид – центр общества и человека, общество – инструмент для реализации желаний и благ человека.
+Подытожив, становится понятно, что философия Древней Греции, так же, как и Востока, имеет оттенок мифов и религий и их тесную взаимосвязь.                       
+                        </p>
+                    <p><h4>2.3. Христианская концепция человека средневековья</h4>
+                        •	Порядок в мире устанавливается Богом, а человек лишь его честь. То есть человек – это образ и подобие Господа. Исходя из этой концепции, человеку в реальной жизни свойственна двойственность после грехопадения и его изучают как одно целое божественной и человеческой природы, отраженное в личности Бога. Бог превыше всего, а человек ничтожен по сравнению с ним. Господь считается творцом и стоит выше всего земного. Человек должен стремиться быть ближе к Богу и обрести спасение в день страшного суда. На чаше весов всегда колеблется грехопадение и искупление. Каждый человек за все свои поступки будет в ответе перед Богом.
+                        Концепция Августина Блаженного во многом берет свое начало от Платона. В человеке душа и тело противоположны друг другу и независимы.
+                        Фома Аквинский ориентируется на учения Аристотеля. Человек представляет собой нечто среднее между животным и ангелом. Тело и душа едины, но душа мотивирует тело и выявляет суть человека.                        
+                        <h4>2.4 Проблема человека в эпоху Возрождения</h4>
+                        Философии человека в эпоху Возрождения присущ гуманизм и антропоцентризм. Бог не отвергается полностью, но вектор значимости смещается в сторону человека и его безграничных возможностей.
+Пика дела Мирандоле считал, что человек – центр мироздания, он творец всего земного и небесного. Каждый человек сам делает себя либо счастливым, либо несчастным, может как возвыситься до уровня Бога, так и превратиться в животное.
+Лоренцо Балла утверждает, что справедливость и благоразумие нацелены на выгоду человека, защита его собственных интересов, а потом уж государственных. В этот период отчетливо прослеживаются нотки капитализма и частных интересов.
+                        </p>
+                        <p><h4>2.5. Немецкая классическая философия о человека</h4>
+                            Ее основоположником является Кант. Человек представляет ключевую фигуру в исследованиях философов. Кант тоже приверженец дуализма, но несколько иного характера – это нравственный и природный. С одной стороны, человек зависит от природной необходимости, но с другой стороны он духовно свободен. Человек, по мнению Канта, «по природе зол»[ ], но доброта в нем тоже есть. Целью нравственности является победа доброты над злом. Самосознание является главным отличием человека, однако философ не приемлет эгоизма в любых его проявлениях.
+                            Концепция Гегеля строится на рационализме. Человек является субьектом духовной деятельности и разума и отличается мышлением. Социальное преобладает над индивидуальном. Фейербах, как представитель антропологического социума, считает, что природа человека материалистична, на первый план выходят межличностные отношения, особенно между мужчиной и женщиной.
+                            
+                            </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Модальное окно2-->
+<div class="modal" id="modal_resume">
+    <div class="modal__dialog">
+
+        <button class="modal__close" type="button" data-close>
+        <img src="img/close.svg" alt="">
+    </button>
+    <div class="modal__content">
+        <div class="modal__title text-center">РЕЗЮМЕ</div>
+        <div class="text-center">
+        <a class="btn btn--thin" href="#">Скачать PDF</a>
+        <a class="btn btn--thin" href="#">Распечатать</a>
+    </div>
+
+        <div class="timeline">
+            <div class="timeline__col timeline__col--left">
+                <h4 class="timeline__title">ОПЫТ</h4>
+                <div class="timeline__item">
+                    <div class="timeline__date">2019 - <b>Present</b></div>
+                    <h5 class="timeline__subtitle">Фрилансер</h5>
+                    <div class="timeline__position">Рерайтер & Копирайтер</div>
+                    <div class="timeline__text">
+                        <p>С 2019 года занимаюсь копирайтингом и глубоким рерайтингом, пишу студенческие работы а также SEO тексты. Также работаю над авторскими рассказами практически на любые темы. Рерайт произвожу следующим образом: анализирую текст, меняю его структуру и заменяю синонимами,не меняя общей смысловой нагрузки. Ключи вставляю органично и незаметно.  </p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="timeline__col  timeline__col--right">
+                <h4 class="timeline__title">ОБРАЗОВАНИЕ</h4>
+                <div class="timeline__item">
+                    <div class="timeline__date">1996 - <b>1999</b></div>
+                    <h5 class="timeline__subtitle">Медицинский колледж</h5>
+                    <div class="timeline__position">Закночила колледж по специальности "Фельдшер". Благодрая обучению в колледже ТОГДА, сейчас с легкостью пишу тексты на медицинскую тематику любой сложности. </div>
+                </div>
+
+                <h4 class="timeline__title">ОБРАЗОВАНИЕ</h4>
+                <div class="timeline__item">
+                    <div class="timeline__date">2007 - <b>2010</b></div>
+                    <h5 class="timeline__subtitle">Специальный фоховый колледж</h5>
+                    <div class="timeline__position">Закончилила колледж по специальности "Агроинженерия". Имею 20 лет опыта работы с авиамеханикой. Сейчас с легкостью пишу тексты на любую техническую тематику, могу работать с технологической документацией.  </div>
+                </div>
+
+                <h4 class="timeline__title">ОБРАЗОВАНИЕ</h4>
+                <div class="timeline__item">
+                    <div class="timeline__date">2019 - <b>2020</b></div>
+                    <h5 class="timeline__subtitle">Курсы копирайтинга и журналистики на платформе UDEMY</h5>
+                    <div class="timeline__position">Закончила специальные курсы копирайтинга, где нас в основном учили работа с текстами и новостями, также разбирали правила LSI текстов. Грамотное составление метатегов. Работа на высокую уникальность. </div>
+                </div>
+
+                <div class="timeline__item">
+                <h4 class="timeline__title">НАВЫКИ</h4>
+                <div class="timeline__position">- Глубокий рерайт</div>
+                <div class="timeline__position">- Высокая уникальность (от 95% и выше)</div>
+                <div class="timeline__position">- SEO тексты</div>
+                <div class="timeline__position">- Рассказы на заказ</div>
+                <div class="timeline__position">- Студенческие работы(курсовые, рефераты,эссе)</div>
+            </div>
+                
+            <h4 class="timeline__title">НАГРАДЫ</h4>
+            <div class="timeline__item">
+                <div class="timeline__date">2021 - <b>2021</b></div>
+                <h5 class="timeline__subtitle">Лучший автор студенческих работ декабря (2021)</h5>
+                <div class="timeline__position">По версии сайта Weblancer, меня признали как лучшего автора студеческих рабор разной сложности. </div>
+            </div>
+
+            <div class="timeline__item">
+                <div class="timeline__date">2021 - <b>2021</b></div>
+                <h5 class="timeline__subtitle">Лучший рерайтер декабря (2021)</h5>
+                <div class="timeline__position">По версии сайта Weblancer, меня признали как лучшего рерайтера текстов абсолютно разной сложности при этом стабильно высокой уникальностью. </div>
+            </div>
+                
+            </div>
+        </div>
+
+        <div class="text-center">
+            <a class="btn" href="#" data-modal="#modal_hire_me">Предложить работу</a>
+        </div>
+
+    </div>
+    </div>
+</div>
+
+<div class="modal" id="modal_hire_me">
+    <div class="modal__dialog modal__dialog--sm">
+        <button class="modal__close" type="button" data-close>
+            <img src="img/close.svg" alt="Close">
+        </button>
+        
+            <div class="contact">
+                <div class="contact__left">
+                    <h3 class="mb_0">ДАВАЙ ПОГОВОРИМ</h3>
+                    <div class="modal__subtitle">Хочешь оставить отзыв или сделать заказ?<br>Нашел Баг или Ошибку? <br>- заполняй форму ниже или звони</div>
+                    <ul class="contact__info">
+                        <li class="contact__info-item">
+                            <img class="contact__info-icon" src="img/phone.svg" alt="">
+                            +(380)67-709-36-37
+                        </li>
+                        <li class="contact__info-item">
+                            <img class="contact__info-icon" src="img/mail.svg" alt="">
+                            nartovanata1234@gmail.com
+                        </li>
+                    </ul>
+
+                    <form class="form" action="" method="post">
+
+
+                        <!-- Hidden Required Fields -->
+		            <input type="hidden" name="project_name" value="Natalia Nartova">
+		            <input type="hidden" name="admin_email" value="comercialnn@ukr.net">
+		            <input type="hidden" name="form_subject" value="Form order">
+		<!-- END Hidden Required Fields -->
+
+                        <div class="form__group">
+                            <label class="form__label" for="name">Ваше Имя</label>
+                            <input class="form__input" name="name" type="text" id="name" placeholder="Введите ваше имя">
+                        </div>
+
+                        <div class="form__group">
+                            <label class="form__label" for="email">Ваш E-mail</label>
+                            <input class="form__input" name="email" type="text" id="email" placeholder="Adress e-mail">
+                        </div>
+
+                        <div class="form__group">
+                            <label class="form__label" for="text">Ваш отзыв, заказ, пожелания</label>
+                            <textarea class="form__textarea" name="text" id="text" placeholder="Type your request,offer,feedback..."></textarea>
+                        </div>
+    
+                        <div class="text-right">
+                            <button class="btn" type="submit">ОТПРАВИТЬ</button>
+                        </div>
+            </form>
+            
+
+                </div>
+                <div class="contact__right">
+                    <div class="timeline__item">
+                        <div class="text-center">
+                        <h4 class="timeline__title">ЦЕНЫ</h4>
+                    </div>
+                        <div class="timeline__position">- Глубокий рерайт - (1000сбп - 1.5$ / 43 грн)</div>
+                        <div class="timeline__position">- SEO копирайтинг - (1000сбп - 1,7$ / 48 грн )</div>
+                        <div class="timeline__position">- Авторские рассказы - (1000сбп - 1,5$ / 45 грн)</div>
+                        <div class="timeline__position">- Студенческие работы - (20$ - за Реферат на 15 листов) <br>Цены на курсовые нужно утонять индивидуално. </div>
+                        <div class="timeline__position">- Посты в Istagram - (1000сбп - 1,3$ / 40 грн)</div>
+                        <div class="timeline__position">- Обзорные и аналитические статьи - (1000сбп - 1,5$ / 45 грн)</div>
+                        <div class="timeline__position"> При заказе какой то из категории, детально описывайте суть задачи, необходимую уникальность для работы, и все моменты, от этого может изменятся цена в большую или меньшую сторону.<br>
+                        Если цена на какую-то из категорий работы вас не устраивает, можете также написать свой вариант с ценой, он будет также рассмотрен.</div>
+                </div>
+            </div>
+    </div>
+</div>
+
+
+    <script src="js/slick.js"></script>
+      <script src="js/script.js"></script>
+      <script src="js/app.js"></script>
+      <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+      
+</body>
+</html>

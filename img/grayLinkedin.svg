@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="45" height="45" viewBox="0 0 400 400" xml:space="preserve">
+<desc>Created with Fabric.js 3.6.2</desc>
+<defs>
+</defs>
+<g transform="matrix(1.54 0 0 1.54 155.54 216.14)" id="_298670680"  >
+<polygon style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,0,0); fill-rule: evenodd; opacity: 1;"  points="-9,-12.5 -9,25.5 9,25.5 9,-15.5 9,-25.5 -9,-25.5 " />
+</g>
+<g transform="matrix(1.54 0 0 1.54 155.54 150.82)" id="_298670680"  >
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,0,0); fill-rule: evenodd; opacity: 1;"  transform=" translate(-36, -33)" d="M 36 24 c -5 0 -9 4 -9 9 c 0 5 4 9 9 9 c 5 0 9 -4 9 -9 c 0 -5 -4 -9 -9 -9 z" stroke-linecap="round" />
+</g>
+<g transform="matrix(1.54 0 0 1.54 221.62 216.14)" id="_298670680"  >
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,0,0); fill-rule: evenodd; opacity: 1;"  transform=" translate(-79, -75.5)" d="M 103 65 c -1 -9 -6 -15 -19 -15 c -7 0 -13 3 -15 7 l 0 0 l 0 -7 l -14 0 l 0 10 l 0 41 l 15 0 l 0 -26 c 0 -6 1 -13 9 -13 c 8 0 9 8 9 14 l 0 25 l 15 0 l 0 -28 l 0 0 c 0 -3 0 -5 0 -8 z" stroke-linecap="round" />
+</g>
+<g transform="matrix(1.54 0 0 1.54 200.11 200)" id="_298670680"  >
+<path style="stroke: rgb(0,0,0); stroke-width: 0.911658; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,0,0); fill-rule: evenodd; opacity: 1;"  transform=" translate(-65, -65)" d="M 130 65 c -1 36 -29 65 -65 65 c -36 0 -65 -29 -65 -65 c 0 -36 29 -65 65 -65 l 65 0 l 0 65 l 0 0 z m -65 -58 c 32 0 58 26 58 58 l 0 0 c 0 32 -26 58 -58 58 c -32 0 -58 -26 -58 -58 c 0 -32 26 -58 58 -58 z" stroke-linecap="round" />
+</g>
+</svg>

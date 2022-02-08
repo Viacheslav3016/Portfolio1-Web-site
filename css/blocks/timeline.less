@@ -1,0 +1,65 @@
+// main: ../style.less
+
+.timeline{
+    display: flex;
+    margin: 4.2rem auto;
+    width: 100%;
+    max-width: 768px;
+    position: relative;
+    &:before{
+        content: "";
+        display: block;
+        width: 1px;
+        height: 100%;
+        background-color: black;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        z-index: 1;
+    }
+}
+.timeline__col{
+    width: 50%;
+
+    &--left{
+        text-align: right;
+        padding-right: 3.2rem;
+    }
+    &--right{
+        padding-left: 3.2rem;
+    }
+}
+.timeline__title{
+    margin-bottom: 38px;
+    font-size: 1.2rem;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.timeline__item{
+    margin-bottom: 2.6rem;
+}
+.timeline__date{
+    display: block;
+    text-decoration: underline;
+    font-size: 0.94rem;
+    color: #000;
+    margin-bottom: 0.8rem;
+}
+.timeline__subtitle{
+    margin-bottom: 0.2rem;
+    font-size: 16px;
+    color: #000;
+    font-weight: 700;
+}
+.timeline__position{
+    font-size: 14px;
+    color: #000;
+    font-style: italic;
+}
+.timeline__text{
+    font-size: 12px;
+    color: gray;
+    margin-top: 0.8rem;
+    line-height: 1.5;
+}

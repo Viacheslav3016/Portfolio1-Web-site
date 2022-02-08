@@ -1,0 +1,51 @@
+// main: ../style.less
+
+.intro__inner{
+    display: flex;
+    border-bottom: 1px solid fade(@gray,30%);
+    padding-top: 100px;
+    padding-bottom: 120px;
+    position: relative;
+    padding-left: 45px;
+    padding-right: 15px;
+
+    @media @mobile, @mobile-sm{
+        padding-left: 22px;
+        padding-right: 7px;
+        
+    }
+  
+}
+.intro__content{
+    width: 50%;
+    @media @mobile, @mobile-sm{
+        width: 100%;
+    }
+}
+.intro__subtitle{
+    font-style: 32px;
+    color: black;
+    font-weight: 200;
+}
+.intro__title{
+    font-size: 45px;
+    color: black;
+    font-weight: 700;
+}
+.intro__text{
+    margin-bottom: 25px;
+    font-size: 18px;
+    color: fade(black,70%);
+
+}
+.intro__photo{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+    border-radius: 2%;
+
+    @media @mobile, @mobile-mini{
+        display: none;
+    }
+}

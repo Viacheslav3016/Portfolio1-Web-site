@@ -1,0 +1,19 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="body_1" width="60" height="60">
+
+<g transform="matrix(0.15 0 0 0.15 0 0)">
+	<g transform="matrix(1 0 0 1 200 200)">
+        <path d="M-100.5 -81.5C -100.5 -91.99341 -91.99341 -100.5 -81.5 -100.5L-81.5 -100.5L81.5 -100.5C 91.99341 -100.5 100.5 -91.99341 100.5 -81.5L100.5 -81.5L100.5 81.5C 100.5 91.99341 91.99341 100.5 81.5 100.5L81.5 100.5L-81.5 100.5C -91.99341 100.5 -100.5 91.99341 -100.5 81.5L-100.5 81.5L-100.5 -81.5z" stroke="none" fill="#379AD0" fill-rule="nonzero" />
+	</g>
+	<g transform="matrix(1 0 0 1 153.23 220.4)">
+        <path d="M-14.5 -19L-14.5 41L14.5 41L14.5 -24L14.5 -41L-14.5 -41L-14.5 -19" stroke="none" fill="#FEFEFE" fill-rule="nonzero" />
+	</g>
+	<g transform="matrix(1 0 0 1 153.23 153.23)">
+        <path transform="matrix(1 0 0 1 -53.5 -53.5)"  d="M54 39C 46 39 39 46 39 54C 39 61 46 68 54 68C 61 68 68 61 68 54C 68 46 61 39 54 39z" stroke="none" fill="#FEFEFE" fill-rule="nonzero" />
+	</g>
+	<g transform="matrix(1 0 0 1 222.39 220.4)">
+        <path transform="matrix(1 0 0 1 -123 -121)"  d="M161 105C 159 90 152 80 131 80C 119 80 111 85 107 91L107 91L107 80L84 80L84 96L84 162L108 162L108 121C 108 111 110 100 123 100C 136 100 137 113 137 122L137 122L137 162L162 162L162 117C 162 113 162 109 161 105z" stroke="none" fill="#FEFEFE" fill-rule="nonzero" />
+	</g>
+</g>
+</svg>

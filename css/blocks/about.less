@@ -1,0 +1,58 @@
+// main: ../style.less
+.about{
+    margin: 7.1rem 0;
+}
+.about__inner{
+    display: flex;
+    min-width: 1090px;
+}
+.about__photo, 
+.about__content{
+    width: 50%;
+}
+
+.about__photo{
+    position: relative;
+    img{
+        position: absolute;
+        bottom: 0;
+        z-index: 2;
+    }
+    
+}
+.about__title{
+    font-size: 45px;
+    color: black;
+    font-weight: 700;
+    @media @notebook{
+        font-size: 30px;
+    }
+}
+.about__bigtitle{
+    position: relative;
+    left: -10px;
+    margin-bottom: 21px;
+    font-size: 80px;
+    line-height: 1.1;
+    color: fade(@black,15%);
+    font-weight: 700;
+
+    @media @notebook{
+        font-size: 70px;
+    }
+}
+.about__text{
+    font-size: 14px;
+    color: black;
+    line-height: 2;
+    font-weight: 300;
+    padding: 0 1rem;
+    margin-bottom: 2.8rem;
+
+    @media @mobile{
+        font-size: 16px;
+    }
+    @media @mobile-sm{
+        font-size: 18px;
+    }
+}

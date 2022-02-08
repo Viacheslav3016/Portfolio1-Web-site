@@ -1,0 +1,44 @@
+// main: ../style.less
+.nav{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+
+@media @mobile-sm{
+    width: 100%;
+    position: absolute;
+
+    padding: 1rem;
+    background-color: #fff;
+    text-align: center;
+
+    top: 100%;
+    right: 0;
+    z-index: 1000;
+    display: none;
+
+    &.show{
+        display: flex;
+    }
+}
+
+}
+.nav__link{
+    padding: 10px 30px;
+    font-style: 14px;
+    color: black;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 3px solid transparent;
+    border-radius: 20px;
+
+    &:hover{
+        border-color: black;
+    }
+}
+@media @mobile-sm{
+    width: 100%;
+    margin-left: 0;
+    padding: .5rem 1rem;
+}

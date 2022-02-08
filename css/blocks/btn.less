@@ -1,0 +1,43 @@
+// main: ../style.less
+
+.btn{
+    display: inline-block;
+    vertical-align: top;
+    font-size: 16px;
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 1px solid @gray;
+    border-radius: 2em;
+    background: none;
+    font-family: 'Comfortaa', cursive;
+    line-height: 1.1;
+    padding: 1em 1.7em;
+    min-width: 170px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color .2s linear, color .2s linear;
+
+    &:focus{
+        outline: none;
+    }
+    &:hover{
+        background-color: black;
+        color: white;
+    }
+
+    + .btn{
+        margin-left: 15px;
+    }
+
+    &--sm{
+        font-style: 14px;
+        font-weight: bold;
+        border-width: 2px;
+        padding: .7em 1.1em;
+    }
+    &--thin{
+        min-width: 145px;
+        font-size: .8rem;
+    }
+}
